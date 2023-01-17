@@ -1,0 +1,26 @@
+.card__text {
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin: 0;
+    max-width: 320px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+}
+
+.card__buy {
+    color: #1698D9;
+    border-bottom: 1px dashed #1698D9;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card__buy:hover {
+    color: #2EA8E6;
+}
+
+.card__text_disabled {
+    color: #FFFF66;
+}

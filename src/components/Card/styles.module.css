@@ -1,0 +1,126 @@
+.card {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.card__border {
+    position: relative;
+    width: 320px;
+    height: 480px;
+    background-color: #1698D9;
+    border-radius: 14px;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.card:hover .card__border,
+.card:hover .circle {
+    background-color: #2EA8E6;
+}
+
+.card.selected .card__border,
+.card.selected .circle {
+    background-color: #D91667;
+}
+
+.card.disabled .card__border {
+    background-color: #B3B3B3;
+    pointer-events: none;
+}
+
+.card.disabled .card__inner {
+    color: #B3B3B3;
+    opacity: 0.5;
+}
+
+.card.disabled .circle {
+    background-color: #B3B3B3;
+}
+
+.card__text_disabled {
+    color: #FFFF66;
+}
+
+.selected.hover:hover .card__border,
+.selected.hover:hover .circle {
+    background-color: #E52E7A;
+}
+
+.card__inner {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 312px;
+    height: 472px;
+    background: url("../../assets/img/photo.png") no-repeat bottom, #f2f2f2;
+    border-radius: 11px;
+    clip-path: polygon(14.7% 0, 100% 0, 100% 100%, 0 100%, 0 9.7%);
+    padding: 21px 0 0 50px;
+    color: #000000;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #1698D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    color: #FFFFFF;
+    transition: .3s;
+}
+
+.circle__text:first-child {
+    font-size: 42px;
+    line-height: 30px;
+}
+
+.circle__text:last-child {
+    font-size: 22px;
+    line-height: 15px;
+}
+
+.card__subtitle {
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+    margin: 0 0 5px;
+}
+
+.card__subtitle_hovered {
+    color: #E62E7A;
+}
+
+.card__title {
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0;
+}
+
+.card__taste {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 14px;
+}
+
+.card__presentCount {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.card__present {
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+    margin: 0;
+}

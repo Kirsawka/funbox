@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/funbox/static/css/main.d541b82b.css",
+    "main.js": "/funbox/static/js/main.9b204929.js",
+    "static/media/photo.png": "/funbox/static/media/photo.25c7fc5e2e8016b16261.png",
+    "static/media/pattern.png": "/funbox/static/media/pattern.8b93e2127ee44e2a8146.png",
+    "index.html": "/funbox/index.html",
+    "main.d541b82b.css.map": "/funbox/static/css/main.d541b82b.css.map",
+    "main.9b204929.js.map": "/funbox/static/js/main.9b204929.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d541b82b.css",
+    "static/js/main.9b204929.js"
+  ]
+}
